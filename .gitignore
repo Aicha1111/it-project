@@ -1,0 +1,26 @@
+# Ignore les fichiers de configuration WordPress
+wp-config.php
+
+# Ignore le dossier d'installation de WordPress
+/wp-admin/
+/wp-includes/
+
+# Ignore les fichiers de cache générés par WordPress
+wp-content/cache/
+
+# Ignore les fichiers journaux
+wp-content/debug.log
+
+# Ignore les fichiers de sauvegarde automatique de l'éditeur
+*.bak
+
+# Ignore les fichiers temporaires de l'éditeur
+*.swp
+
+# Ignore les fichiers de configuration spécifiques au développeur (ex. : Local by Flywheel)
+wp-content/debug-config.php
+
+# Ignore les fichiers de sauvegarde
+*.sql
+*.sql.gz
+*.log
